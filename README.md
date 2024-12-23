@@ -23,20 +23,27 @@ Figure 01 4 Bit SISO Register
 The synchronous nature of the flip-flops ensures that the shifting of data occurs in a coordinated manner. When the clock signal rises, the input data is sampled and stored in the first flip-flop. On subsequent clock pulses, the stored data propagates through the flip-flops, moving from one flip-flop to the next.
 Each D flip-flop in the circuit has a Data (D) input, a Clock (CLK) input, and an output (Q). The D input represents the data to be loaded into the flip-flop, while the CLK input is connected to the common clock signal. The output (Q) of each flip-flop is connected to the D input of the next flip-flop, forming a cascade.
 
-**Procedure**
-
-/* write all the steps invloved */
 
 **PROGRAM**
 
 /* Program for flipflops and verify its truth table in quartus using Verilog programming.
 
-Developed by: RegisterNumber:
+![ss](https://github.com/user-attachments/assets/def411ac-6124-44a2-bd1f-7e3bd6c65307)
+
+
+Developed by:Srilakshmi.B.H.
+RegisterNumber:24900035
 
 */
 
 **RTL LOGIC FOR SISO Shift Register**
 
+![ss2](https://github.com/user-attachments/assets/10e6ef24-22bf-4a5e-85ef-af867ef162e5)
+
 **TIMING DIGRAMS FOR SISO Shift Register**
 
+![ss3](https://github.com/user-attachments/assets/6a26f3d3-cfd0-4b1f-94d7-29d45400cc5c)
+
 **RESULTS**
+
+Thus the SISO shift registers using verilog and validating their functionality using their functional tables are verified.
